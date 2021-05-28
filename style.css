@@ -7,7 +7,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(eduford_img/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(eduford_img/img_1.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -178,7 +178,7 @@ h3 {
     display: block;
 }
 
-.layer {
+.layer-1 {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -188,11 +188,81 @@ h3 {
     transition: 0.5s;
 }
 
-.layer:hover {
-    background: rgba(226, 0, 0, 0.7);
+.layer-2 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
 }
 
-.layer h3 {
+.layer-3 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-4 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-5 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-6 {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer-1:hover {
+    background: rgba(185, 226, 0, 0.7);
+}
+
+.layer-2:hover {
+    background: rgba(0, 128, 122, 0.7);
+}
+
+.layer-3:hover {
+    background: rgba(81, 0, 128, 0.7);
+}
+
+.layer-4:hover {
+    background: rgba(226, 0, 215, 0.7);
+}
+
+.layer-5:hover {
+    background: rgba(185, 226, 0, 0.7);
+}
+
+.layer-6:hover {
+    background: rgba(0, 124, 226, 0.7);
+}
+
+.layer-1 h3 {
     width: 100%;
     font-size: 26px;
     font-weight: 500;
@@ -205,9 +275,108 @@ h3 {
     transition: 0.5s;
 }
 
-.layer:hover h3 {
+.layer-1:hover h3 {
     bottom: 49%;
     opacity: 1;
+}
+
+.layer-2 h3 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-2:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer-3 h3 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-3:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer-4 h3 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-4:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer-5 h3 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-5:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer-6 h3 {
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer-6:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.row_3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    box-sizing: border-box;
 }
 
 
