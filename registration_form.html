@@ -15,9 +15,9 @@
             <div class="inner_box" id="cart">
                 <div class="card-front">
                     <h2>LOGIN</h2>
-                    <form>
-                        <input type="email" class="input-box" placeholder="Enter Your Email Id" required>
-                        <input type="password" class="input-box" placeholder="Password" required>
+                    <form action="registration_form.php" method="POST">
+                        <input type="email" class="input-box" name="email" placeholder="Enter Your Email Id" required>
+                        <input type="password" class="input-box" name="password" placeholder="Password" required>
                         <button type="submit" class="submit-btn">Submit</button>
                         <input type="checkbox"><span>Remember Me</span>
                     </form>
@@ -26,10 +26,11 @@
                 </div>
                 <div class="card-back">
                     <h2>Register</h2>
-                    <form>
-                        <input type="text" class="input-box" placeholder="Enter Your Name" required>
-                        <input type="email" class="input-box" placeholder="Enter Your Email Id" required>
-                        <input type="password" class="input-box" placeholder="Password" required>
+                    <form action="registration_form.php" method="POST">
+                        <input type="text" class="input-box" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" class="input-box" name="email" placeholder="Enter Your Email Id" required>
+                        <input type="password" class="input-box" name="password_1" placeholder="Password" required>
+                        <input type="password" class="input-box" name="password_2" placeholder="Re-enter Password" required>
                         <button type="submit" class="submit-btn">Submit</button>
                         <input type="checkbox"><span>Remember Me</span>
                     </form>
